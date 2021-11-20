@@ -1,0 +1,118 @@
+ 
+
+laptop HP
+Prosesor Intel Core i3-10110U dual-core (4 thread) 2,1GHz TurboBoost 4,1GHz
+Memori RAM 4GB DDR4 2666MHz, upgradeable max 16GB
+Layar IPS LCD dengan HD BrightView WLED backlight 14 inci resolusi full HD 1920 x 1080 piksel, 250 nits, 45% NTSC color gamut, micro edge
+
+Laptop Asus
+ Processor: AMD Ryzen™ 5 5500U Processor 2.1GHz
+ Memory: 8GB DDR4 on board
+ Display: 14.0-inch LED Backlit FHD (1920 x 1080) 16:9 220nits anti-glare panel
+Color Slate Grey
+
+hp reno 5
+ Processor: Qualcomm 720G (8nm) Octacore 2.3GHz
+Memory: 8GB/128GB
+Display: 6.4" AMOLED FHD+ (2400 x 1800), Single Punch Hole 90Hz (hidden fingerpoint 3.0)
+ Color: silver, black
+ Rp.5000.000
+
+Samsung Galaxy A51
+Prosessor octa-core (2.3GHz quad-core, Cortex A73 + 1.7GHz, quad-core, Cortex A53)
+ Memory RAM + ROM (GB) 
+8+128 GB
+Display 
+6.5"" (FHD+) Super Amoled
+Warna silver
+Rp 4000.000
+
+Komputer iMac 27"
+Prosesor Intel Core i5 generasi ke-10 6‑core 3,1 GHz, Turbo Boost hingga 4,5 GHz
+ Memori DDR4 2666 MHz sebesar 8 GB
+Layar Retina 5K 27 inci (diagonal) 
+Resolusi 5120 x 2880
+[ Warna white black
+ Rp 15.000.000
+
+lenovo
+ AMD A4-9125 (2.6GHz)
+4 GB DDR4
+: 19.5" WVA 16:10 (1440 x 900) 250 nits
+ Color : black
+
+LG
+Spesifikasi LG Smart TV 32LM630BPTB
+Display Technology : LED Smart TV.
+Ukuran Layar : 32 inch.
+Resolusi Layar : 1366 x768 pixels.
+ Rp.5000.000
+Warna black
+
+samsung
+ Samsung Smart HD TV 32"
+Ukuruan 33 inch
+Tipe layar lcd/led
+Resolution: 1,366 x 768
+Warna black
+[15.16, 11/7/2021] Aisyhmkt: Harga Rp 3.100.000
+
+imac pro72juta
+iphone 12 pomac 20jt
+iphone 8 8jt
+mcbook ar 16jt
+macbook pro 25jt
+
+github
+gitinit
+git add .
+git commit -m"lks1"
+git branch -M main
+git remote
+git push
+
+
+hosting:
+heroku login
+buat Procfile web: vendor/bin/heroku-php-apache2 public/
+git init
+git add .
+git commit -m "initial release"
+heroku create aplikasi-lks-09
+git remote -v
+git push heroku master
+open app
+setting ->reveal convig
+env 
+APP_DEBUG = true
+APP_KEY = base64:jJGJBj45Kvw0JEAIFcBWkhUC1gakuEZ5l2jLyQ3VTUU=
+reload webny
+heroku config:add APP_NAME=Laravel
+heroku config:add APP_ENV=production
+ke resosrce heroku post gress
+heroku pg:credentials:url
+heroku config:add DB_CONNECTION=pgsql
+heroku config:add DB_HOST=
+heroku config:add DB_PORT=
+heroku config:add DB_DATABASE=
+heroku config:add DB_USERNAME=
+heroku config:add DB_PASSWORD=
+heroku run php artisan migrate
+heroku run php artisan db:seed --class=UserSeeder  
+
+-cek semua design dan program dan jika loginnya tidak berhasil lanjut step dibawah
+1. buka di resources/views/layouts(bukan layout) terus pilih app.blade.php ( dibagian 
+<script src="{{ asset('js/app.js') }}" defer></script> dan <link href="{{ asset('css/app.css') }}" rel="stylesheet"> tulisan  asset diganti pake mix
+2. dibagian settings heroku, kamu bisa scroll kebawah sampe nemuin add buildpacks, kamu bisa click terus pilih yang nodejs
+3. npm -v (terminal)
+4.  npm run dev atau npm i && npm run dev (terminal)
+5. deploy ulang
+melakukan perubahan:
+git add .
+ git commit -am "make it better"
+git push heroku master    
+ npm -v
+ npm run dev
+
+
+ 
